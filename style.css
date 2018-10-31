@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
+
+body {
+   font-family: 'Roboto Slab', sans-serif;
+   color: #222;
+   font-size: 14px;
+   line-height: 1.3;
+   width: 300px;
+   background-color: #ebebeb
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  margin: 8px;
+}
+
+.duck-bg {
+  background-image: url("./assets/duck.jpg");
+}
+
+.single {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.big {
+  background-size: contain;
+}
+
+.fancy {
+  background-image: linear-gradient(135deg, #3023ae, #c86dd7);
+}
+
+.duck-decor {
+  background-image: radial-gradient(circle at 50% 50%, rgba(200, 109, 215, 0), rgba(200, 109, 215, 0) 68%, rgba(0, 0, 0, 0.17)), url("./assets/duck.jpg");
+}
+
+.light-mauve {
+  background-color: #d8bfd8;
+}
+
+.shape-ex1 {
+  border-radius: 10px;
+}
+
+.shape-ex2 {
+  border-radius: 50%;
+}
+
+.shape-ex3 {
+  box-shadow: 2px 4px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.icons {
+  clear: both;
+  margin-top: 100px;
+  font-size: 40px;
+}
+
+.fa-broom {
+  color: #bd10e0;
+}
+
+.fa-cat {
+  color: #50e3c2;
+}
+
+.fa-spider {
+  color: #4a4a4a;
+}
+
+.fa-ghost {
+  color: #ffb6c1;
+}
+
+.some-grey-bg {
+  background-color: #f2f2f2;
+}
+
+.box .link {
+  text-decoration: none;
+}
+
+.box .link:hover {
+  text-decoration: underline;
+  color: #bd10e0;
+}
+
+.box .button {
+  padding: 5px 15px;
+  background-color: #4a90e2;
+  color: white;
+}
+
+.box .button:hover {
+  background-color: #bd10e0;
+}
+
+.box .button2 {
+  padding: 5px 15px;
+  color: white;
+  border-radius: 2px;
+  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.29);
+  border: solid 1px #3367a3;
+  background-image: linear-gradient(to bottom, #54b1f4, #4a90e2);
+}
+
+.box .button2:hover {
+  color: #4a90e2;
+  background-image: none;
+  background-color: #ffffff;
+}
